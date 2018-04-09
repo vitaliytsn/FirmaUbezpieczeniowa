@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Insurinator.DataAccess.InsuranceDbContext">
+    <Position X="0.75" Y="5.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>QAAQAAAAAQAAAAAAACAAAAQMGAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>InsuranceDbContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Insurinator.DataAccess.Services.ClientsService">
+    <Position X="11.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Services\ClientsService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Insurinator.DataAccess.Services.EmployeesService">
+    <Position X="13.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\EmployeesService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Insurinator.DataAccess.Services.InsuranceDefinitionServiceBase&lt;T&gt;">
+    <Position X="8.5" Y="1.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\InsuranceDefinitionServiceBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Insurinator.DataAccess.Services.PropertyInsuranceDefinitionService">
+    <Position X="7.5" Y="5.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\PropertyInsuranceDefinitionService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Insurinator.DataAccess.Services.ServiceBase&lt;T&gt;">
+    <Position X="12.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAcAAABAACAABEAAAAAAAAAAAAkAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\ServiceBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.668" />
+  </Class>
+  <Class Name="Insurinator.DataAccess.Services.VehicleInsuranceDefinitionService">
+    <Position X="7.5" Y="6.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\VehicleInsuranceDefinitionService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Insurinator.DataAccess.Migrations.ModelCreation" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20171018132058_ModelCreation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Insurinator.DataAccess.Migrations.InsuranceDbContextModelSnapshot" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Migrations\InsuranceDbContextModelSnapshot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Insurinator.Interfaces.Services.IServiceBase&lt;T&gt;">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Insurinator.Interfaces.Services.IEmployeesService" Collapsed="true">
+    <Position X="0.5" Y="4" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Insurinator.Interfaces.Services.IClientsService" Collapsed="true">
+    <Position X="2.25" Y="4" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Insurinator.Interfaces.Services.IPropertyInsuranceDefinitionService" Collapsed="true">
+    <Position X="6.75" Y="4" Width="2.75" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Insurinator.Interfaces.Services.IVehicleInsuranceDefinitionService" Collapsed="true">
+    <Position X="4" Y="4" Width="2.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

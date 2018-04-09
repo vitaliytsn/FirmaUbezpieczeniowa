@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Insurinator.Models.Entities.Client" BaseTypeListCollapsed="true">
+    <Position X="11" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAECAAAAAgAAAABAQAFAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Entities\Client.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Insurinator.Models.Entities.Employee">
+    <Position X="13.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQgDAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Entities\Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Insurinator.Models.Entities.InsuranceEvent">
+    <Position X="0.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAACAAAAAAAAAAAAAAAQAAQAAAAAAAAA=</HashCode>
+      <FileName>Entities\InsuranceEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Insurinator.Models.Entities.InsuranceDefinitions.InsuranceDefinition">
+    <Position X="7.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAiAAAAAABgAAAAQAAAAARAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Entities\InsuranceDefinitions\InsuranceDefinition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Insurinator.Models.Entities.InsuranceDefinitions.PropertyInsuranceDefinition">
+    <Position X="5.25" Y="4" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Insurinator.Models.Entities.InsuranceDefinitions.PropertyInsuranceDefinition.PropertyType">
+        <TypeIdentifier>
+          <NewMemberFileName>Entities\InsuranceDefinitions\PropertyInsuranceDefinition.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAEAAAAABAAAIAAAAAAAA=</HashCode>
+      <FileName>Entities\InsuranceDefinitions\PropertyInsuranceDefinition.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Insurinator.Models.Entities.InsuranceDefinitions.VehicleInsuranceDefinition">
+    <Position X="8.5" Y="3.75" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Insurinator.Models.Entities.InsuranceDefinitions.VehicleInsuranceDefinition.VehicleType">
+        <TypeIdentifier>
+          <NewMemberFileName>Entities\InsuranceDefinitions\VehicleInsuranceDefinition.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAABBAAAAAAAAAAAAEIAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Entities\InsuranceDefinitions\VehicleInsuranceDefinition.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Insurinator.Models.Entities.InsuranceEntries.InsuranceEntry">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAACAAAAAAAAAAAAgAAAAAAQAAAAAAAAAQ=</HashCode>
+      <FileName>Entities\InsuranceEntries\InsuranceEntry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Insurinator.Models.Entities.InsuranceEntries.PropertyInsuranceEntry">
+    <Position X="2.75" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAIAAEAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\InsuranceEntries\PropertyInsuranceEntry.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Insurinator.Models.Entities.InsuranceEntries.VehicleInsuranceEntry">
+    <Position X="0.5" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAgAAAEAAAAAAAAAAAIAICAAA=</HashCode>
+      <FileName>Entities\InsuranceEntries\VehicleInsuranceEntry.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Insurinator.Models.IModelWithRelation">
+    <Position X="5.75" Y="8.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IModelWithRelation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Insurinator.Models.Enums.ClientType">
+    <Position X="2.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Enums\ClientTypeEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Insurinator.Models.Enums.InsuranceEventType">
+    <Position X="0.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAg=</HashCode>
+      <FileName>Enums\InsuranceEventTypeEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Insurinator.Models.Enums.InsuranceType">
+    <Position X="4" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Enums\InsuranceTypeEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
